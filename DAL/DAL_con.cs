@@ -10,7 +10,7 @@ namespace DAL
     public class DAL_con
     {
         
-            protected SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-3EAD9E6J\SQLEXPRESS;Initial Catalog=QuanLyGiaoVien;Integrated Security=True");
+            protected SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-3UFSHGN0;Initial Catalog=QuanLyGiaoVien;Integrated Security=True");
         public  bool executeQuery(string query )
         {
             try
